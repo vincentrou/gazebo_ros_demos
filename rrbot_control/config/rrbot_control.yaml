@@ -13,3 +13,7 @@ rrbot:
     type: position_controllers/JointPositionController
     joint: joint2
     pid: {p: 100.0, i: 0.01, d: 10.0}
+
+#gazebo_ros_control:
+  #pid_gains:
+    #joint2: {p: 100.0, i: 0.01, d: 10.0}
