@@ -14,6 +14,8 @@ rrbot:
     joint: joint2
     pid: {p: 100.0, i: 0.01, d: 10.0}
 
+# Work around to use pid controller on Gazebo 7
+# https://github.com/ros-simulation/gazebo_ros_pkgs/issues/479
 #gazebo_ros_control:
   #pid_gains:
     #joint2: {p: 100.0, i: 0.01, d: 10.0}
